@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.row {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    /* border: 2px solid black; */
+}
+
+
+section .row2 {
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem 1.5rem;
+}
+
+h3 {
+    /* padding-left: 1.5rem; */
+    color: #008000;
+}
+
+.items6 p {
+    /* padding: 0 auto !important ; */
+    padding-left: 0;
+}
+
+.rera {
+    padding: .5rem;
+    padding-left: 2rem !important;
+    background-color: #008000;
+    color: white;
+}
+
+.mob {
+    display: flex;
+    padding: .5rem;
+    padding-right: 4rem !important;
+    background-color: #008000;
+    color: white;
+    justify-content: end;
+}
+
+.logo {
+    padding-left: 3rem;
+}
+
+.logo img {
+    height: 5.5rem;
+    margin: .5rem 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 1rem;
+}
+
+ul li {
+    padding: 1.2rem;
+
+}
+
+.home {
+    background-color: #008000;
+    color: white;
+    padding: 1rem;
+    margin-top: -1rem;
+}
+
+
+.navbar {
+    overflow: hidden;
+
+    /* padding: 20px; */
+}
+
+.navbar a {
+    /* display: block; */
+    color: white;
+    text-align: center;
+    /* padding: 12px 14px; */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: #008000;
+}
+
+.navbar .menu-bar {
+    display: none;
+}
+
+
+.bg {
+
+    padding: 0 1.3rem;
+}
+
+
+.bg img {
+    height: 100vh;
+    width: 100%;
+}
+
+
+.about,
+.services,
+.contact-us {
+    /* border: 2px solid black; */
+    font-size: 1.3rem;
+    padding: 1.5rem;
+    color: green;
+    text-decoration: underline;
+    letter-spacing: .4rem;
+}
+
+.contact-us {
+    padding-top: -1rem;
+}
+
+.about-our-p,
+.about-img {
+    /* border: 2px solid black; */
+    height: auto;
+}
+
+.contact {
+    padding: 1.3rem;
+    /* border: 2px solid black; */
+}
+
+.contact-img img {
+    height: 16rem;
+    width: 100%;
+    padding: 0 1.3rem;
+}
+
+.services {
+    margin: 0;
+    width: 100%;
+}
+
+
+span {
+    color: green;
+
+}
+
+h2 {
+    font-size: 1.5em;
+    padding: 1.5rem;
+}
+
+p {
+    text-align: justify;
+    padding: 1rem 1.5rem;
+
+}
+
+
+
+.about-img img {
+    /* height: 15rem; */
+
+    padding: 5rem 1rem;
+    width: 100%;
+}
+
+
+input,
+textarea {
+    width: 100%;
+    padding: .6rem;
+    margin: .6rem 0;
+    border: 1px solid black;
+    border-radius: .3rem;
+}
+
+
+button {
+    margin: 20px 0;
+    background: green;
+    color: white;
+    padding: 14px 16px;
+    outline: none;
+    border: 1px solid green;
+    border-radius: 5px;
+    display: flex;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+
+    .row {
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .mob {
+        justify-content: start;
+        padding-left: 2rem !important;
+    }
+
+    .logo {
+        position: relative;
+    }
+
+    ul {
+        display: block;
+    }
+
+    .navbar a {
+        display: none;
+    }
+
+    .navbar .menu-bar {
+
+        color: black;
+        font-size: 2rem;
+        display: block;
+        float: none;
+        position: absolute;
+        right: 3rem;
+        top: 7rem;
+
+    }
+
+    .navbar.responsive a {
+        color: black;
+        font-size: 2rem;
+        float: none;
+        display: block;
+        text-align: right;
+
+    }
+
+    .bg img {
+        height: auto;
+        min-height: 30vh;
+    }
+
+    .about-img img {
+        margin: 1.5rem 0;
+        padding: 0 1.5rem;
+    }
+
+
+    section .row2 {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-img {
+        /* height: auto;
+        width: 100%; */
+    }
+
+
+}
+
+@media screen and (min-width:600px) {
+
+    .row {
+        grid-template-columns: 1fr 1fr;
+
+    }
