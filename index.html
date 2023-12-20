@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script>
+
+        function togglemenu() {
+            var mymenu = document.getElementById('navigation');
+            if (mymenu.className == 'navbar') {
+                mymenu.className = 'navbar responsive';
+            } else if (mymenu.className == 'navbar responsive') {
+                mymenu.className = 'navbar';
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <section>
+
+        <div class="row">
+            <div class="items2 rera">RERA Approved</div>
+            <div class="items2 mob">Mob. No. 7004525294, 97771999460</div>
+        </div>
+
+        <div class="row">
+            <div class="items2 logo"><img src="img/landtwisters logo.jpg" alt=""></div>
+            <!-- <div class="items2 li" >
+            <ul>
+                <li><div  class="home">Home</div></li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Features</li>
+                <li>Our Blogs</li>
+                <li>News</li>
+                <li>Contact</li>
+            </ul>
+        </div> -->
+
+
+            <div class="navbar" id="navigation">
+                <ul>
+                    <li>
+                        <div class="home">Home</div>
+                    </li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Features</li>
+                    <li>Our Blogs</li>
+                    <li>News</li>
+                    <li>Contact</li>
+                    <li><a class="menu-bar" onclick="togglemenu()" href="#menu"><i
+                                class="fa-solid fa-bars-staggered"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="bg"><img src="img/main-bg.jpeg" alt=""></div>
+
+        <div class="row">
+            <div class="about">
+                <h1>About Us</h1>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="items2">
+                <div class="items2 about-our">
+                    <h2><span>About</span> Our Company</h2>
+                </div>
+                <div class="about-our-p">
+                    <p>At Land Twisters, our team of dedicated employees speaks volumes for the quality of
+                        service
+                        we provide. With a passion for real estate and a deep understanding of the industry, our
+                        employees are
+                        committed to helping our clients navigate the complex world of property dealings. From
+                        experienced
+                        agents to skilled support staff, each member of our team brings a unique set of skills and
+                        expertise to
+                        the table.</p>
+
+                    <p>We understand that purchasing a property involves financial considerations. That's why we offer
+                        comprehensive financing assistance to our clients. As an authorized business associate of
+                        renowned banks
+                        and financial institutions such as PNB, HDFC, ICICI, YES Bank, Aditya Birla, Bank of Baroda, and
+                        more,
+                        we can help you explore various financing options. Our team of experts will guide you through
+                        the loan
+                        application process, ensuring that you have access to the best rates and terms available. We are
+                        committed to simplifying the financing aspect of your property purchase, making it easier for
+                        you to
+                        turn your dreams into reality.</p>
+                </div>
+            </div>
+            <div class="items2 about-img"><img src="img/about-page-image.jpg" alt=""></div>
+
+            <div class="row">
+                <div class="services">
+                    <h1>Our Services</h1>
+                </div>
+            </div><br>
+
+    </section>
+
+
+    <section>
+        <div class="row2">
+
+            <div class="items6">
+                <h3>Centralized Database</h3>
+                <p>Centralized management of Shops data enables distinct users to manage their respective activities
+                    through a single platform.</p>
+            </div>
+
+            <div class="items6">
+                <h3>Absolute Support</h3>
+                <p>Onsite & Online Support to all users, with roadmaps for implementation enable fastest implementation
+                    & active participation of all users.</p>
+            </div>
+
+            <div class="items6">
+                <h3>Quickest ROI</h3>
+                <p>Fast Implementation with streamlined processes and solution built on a cutting edge technology gives
+                    you a quickest Return On Investment.</p>
+            </div>
+
+            <div class="items6">
+                <h3>Data Security</h3>
+                <p>Secure cloud, role-based access, encrypted data, auto-alerts for data security, daily back-ups
+                    ensuring disaster recovery.</p>
+            </div>
+
+            <div class="items6">
+                <h3>Easy & Intuitive Solutions</h3>
+                <p>Easy & intuitive structure supporting vernacular languages & tool tips for helping users to adopt
+                    easily & navigate with ease.</p>
+            </div>
+
+            <div class="items6">
+                <h3>Dashboards & Reports</h3>
+                <p>Analytics powered dashboards for accessing real-time information & generating reports for better
+                    decision-making & compliance.</p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section>
+
+        <div class="row">
+            <div class="contact-us">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="items2 contact">
+                <form action="">
+                    <label for="">Enter Name</label>
+                    <div class="input">
+                        <input type="text" placeholder="Prashant Kumar" />
+                    </div>
+                    <label for="">Enter E-mail</label>
+                    <div class="input">
+                        <input type="email" placeholder="info@mail.com" />
+                    </div>
+                    <label for="">Enter Mob. No.</label>
+                    <div class="input">
+                        <input type="number" placeholder="7903296168" />
+                    </div>
+                    <label for="">Your Message</label>
+                    <div class="input">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    </div>
+                    <button>Send Message</button>
+                </form>
+            </div>
+            <div class="items2 contact-img"><img src="img/about-page-image.jpg" alt=""></div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
