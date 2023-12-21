@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+cursor: pointer;
 }
 
 
@@ -17,21 +18,23 @@
 
 
 section .row2 {
+
     /* border: 2px solid black; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 1rem 1.5rem;
+    padding: 1rem auto;
 }
 
 h3 {
-    /* padding-left: 1.5rem; */
+    padding-left: 1.5rem;
     color: #008000;
 }
 
 .items6 p {
     /* padding: 0 auto !important ; */
-    padding-left: 0;
+    padding-left: 1.5rem;
 }
+
 
 .rera {
     padding: .5rem;
@@ -144,7 +147,7 @@ ul li {
 .contact-img img {
     height: 16rem;
     width: 100%;
-    padding: 0 1.3rem;
+    padding: 0 1.3rem 1rem;
 }
 
 .services {
@@ -174,7 +177,7 @@ p {
 .about-img img {
     /* height: 15rem; */
 
-    padding: 5rem 1rem;
+    padding: 5rem 1rem ;
     width: 100%;
 }
 
@@ -201,9 +204,57 @@ button {
 }
 
 
+.items3{
+    color: white;
+    background-color: black;
+    padding: 3rem 1rem ;
+}
+
+.items3 ul{
+display: block;
+
+}
+
+.items3 ul li a, .f1 p a{
+    color: white;
+}
+
+.items3 .logo{
+    
+    padding-bottom: 2rem;
+   
+}
+
+.items3 .logo img{
+    margin-left: -1.5rem;
+    height: 5rem;
+    width: 12rem;
+}
+
+.f2, .f3{
+    padding-top: 9rem;
+}
+
+h4{
+    padding-left: 1.5rem;
+}
 
 
-@media screen and (max-width:768px) {
+ul li:hover{
+color: #008000;
+}
+
+
+
+.items6 p:hover {
+    background-color: green;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width:600px) {
 
     .row {
         grid-template-columns: 1fr;
@@ -221,7 +272,9 @@ button {
     }
 
     ul {
+        
         display: block;
+
     }
 
     .navbar a {
@@ -254,6 +307,12 @@ button {
         min-height: 30vh;
     }
 
+    
+
+    .about,.about-our,.contact{
+        margin-bottom: -1.5rem;
+    }
+
     .about-img img {
         margin: 1.5rem 0;
         padding: 0 1.5rem;
@@ -269,7 +328,11 @@ button {
         width: 100%; */
     }
 
+    .f2, .f3{
+        padding-top: 2rem;
+    }
 
+    
 }
 
 @media screen and (min-width:600px) {
@@ -278,3 +341,14 @@ button {
         grid-template-columns: 1fr 1fr;
 
     }
+
+
+    .nav{
+        position: sticky;
+    top: 0;
+    background-color: white;
+    }
+
+    
+
+}
