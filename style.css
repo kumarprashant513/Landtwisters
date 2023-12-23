@@ -81,14 +81,14 @@ ul li {
 
 
 .navbar {
-    overflow: hidden;
+    /* overflow: hidden; */
 
     /* padding: 20px; */
 }
 
 .navbar a {
     /* display: block; */
-    color: white;
+    color: black;
     text-align: center;
     /* padding: 12px 14px; */
     text-decoration: none;
@@ -268,14 +268,28 @@ color: #008000;
     }
 
     .logo {
-        position: relative;
+        
     }
 
     ul {
         
+       
         display: block;
 
     }
+
+    ul li{
+       
+        padding: .2rem .5rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: start;
+    }
+
+    .nav{
+       
+    }
+   
 
     .navbar a {
         display: none;
@@ -289,7 +303,7 @@ color: #008000;
         float: none;
         position: absolute;
         right: 3rem;
-        top: 7rem;
+        top: 6.5rem;
 
     }
 
